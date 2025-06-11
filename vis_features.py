@@ -641,9 +641,10 @@ def process_images(src_img_path, trg_img_path, src_mask_path, trg_mask_path):
 # Main execution loop
 target_img_list = glob.glob(f"{args.image_path}/*/model_*.jpg")
 target_img_list = sorted(target_img_list)
-target_img_list.remove("/home/elicer/projects/dahyun/sd-dino/dataset/images/4849/model_0.jpg")
-target_img_list.remove("/home/elicer/projects/dahyun/sd-dino/dataset/images/4849/model_1.jpg")
-target_img_list.remove("/home/elicer/projects/dahyun/sd-dino/dataset/images/4849/model_2.jpg")
+# breakpoint()
+target_img_list.remove("/home/elicer/projects/dahyun/20251R0136COSE40500/dataset/images/4849/model_0.jpg")
+target_img_list.remove("/home/elicer/projects/dahyun/20251R0136COSE40500/dataset/images/4849/model_1.jpg")
+target_img_list.remove("/home/elicer/projects/dahyun/20251R0136COSE40500/dataset/images/4849/model_2.jpg")
 
 for idx, tgt_img in enumerate(target_img_list):
     if idx % 2 == 0:
