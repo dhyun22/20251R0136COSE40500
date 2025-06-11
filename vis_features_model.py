@@ -16,7 +16,7 @@ from sklearn.cluster import KMeans
 from scipy.optimize import linear_sum_assignment
 import argparse
 import glob
-import torchvision.transforms as transforms # 파일 상단에 추가
+import torchvision.transforms as transforms
 from PIL import ImageDraw
 
 parser = argparse.ArgumentParser()
@@ -32,9 +32,7 @@ args = parser.parse_args()
 
 # hyperparameters
 
-
-# os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-MASK = True # This now means we *use* the external mask provided, not generate one.
+MASK = True 
 VER = "v1-5"
 PCA = False
 CO_PCA = True
