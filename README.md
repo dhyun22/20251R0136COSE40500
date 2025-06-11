@@ -6,8 +6,10 @@ visualizing feature correspondence between garment and human upper body in vton 
 - dense matching colormap
 - sparse matching line
 - pca (n=3)
-dataset/output_dino : matching vis of garment - human upper body
-dataset/output_dino_model : matching vis of multi view human upper body
+
+### output path
+1. dataset/output_dino : matching vis of garment - human upper body
+2. dataset/output_dino_model : matching vis of multi view human upper body
 
 
 ## Fuse DINOv2 + Stable Diffusion feature
@@ -15,5 +17,7 @@ dataset/output_dino_model : matching vis of multi view human upper body
 - dense matching colormap
 - sparse matching line
 - pca (n=3)
-dataset/output : matching vis of garment - human upper body
-dataset/output_model : matching vis of multi view human upper body
+
+### output path
+1. dataset/output : matching vis of garment - human upper body
+2. dataset/output_model : matching vis of multi view human upper body
