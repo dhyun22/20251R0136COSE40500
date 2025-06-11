@@ -8,8 +8,8 @@ visualizing feature correspondence between garment and human upper body in vton 
 - pca (n=3)
 
 ### output path
-1. dataset/output_dino : matching vis of garment - human upper body
-2. dataset/output_dino_model : matching vis of multi view human upper body
+1. _dataset/output_dino_ : matching vis of garment - human upper body
+2. _dataset/output_dino_model_ : matching vis of multi view human upper body
 
 
 ## Fuse DINOv2 + Stable Diffusion feature
@@ -19,5 +19,5 @@ visualizing feature correspondence between garment and human upper body in vton 
 - pca (n=3)
 
 ### output path
-1. dataset/output : matching vis of garment - human upper body
-2. dataset/output_model : matching vis of multi view human upper body
+1. _dataset/output_ : matching vis of garment - human upper body
+2. _dataset/output_model_ : matching vis of multi view human upper body
